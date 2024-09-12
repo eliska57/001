@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Toto je ukázková webová stránka vytvořená pro ukázku základních HTML a CSS technik.">
+    <meta name="keywords" content="web, HTML, CSS, GitHub">
+    <meta name="author" content="Eliška Naňková">
+    <title>001</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Grid layout */
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+section {
+    padding: 1rem;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Vítejte na mé webové stránce</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Domů</a></li>
+                <li><a href="#about">O nás</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Domů</h2>
+            <p></p>
+        </section>
+        
+        <section id="about">
+            <h2>O nás</h2>
+            <p></p>
+        </section>
+        
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <p></p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy;</p>
+    </footer>
+</body>
+</html>
